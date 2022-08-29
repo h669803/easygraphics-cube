@@ -2,12 +2,13 @@ package cube;
 
 import easygraphics.*;
 
-public class Cube extends EasyGraphics implements Runnable {
+public class Cube extends EasyGraphics {
 
 	public static void main(String[] args) {
 		launch(args);
 	}
 	
+	// Variables for changing how the cube is drawn
 	double horizontalFov = 100;
 	int width = 1200;
 	int height = 900;
